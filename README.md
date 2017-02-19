@@ -1,2 +1,2 @@
 # BlogDesign
-blog design with simple CSS
+blog design with simple HTML, CSS, PHP
