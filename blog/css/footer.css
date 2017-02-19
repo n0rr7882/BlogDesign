@@ -1,0 +1,12 @@
+footer {
+    background-image: url("../background/headerfooterBG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+footer>a {
+	color: white;
+}

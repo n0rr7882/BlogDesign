@@ -1,0 +1,37 @@
+header {
+    background-image: url("../background/headerfooterBG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    height: 40vh;
+    width: 100%;
+}
+.profile_image {
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 0 30px black;
+}
+.profile_image:hover {
+    filter: brightness(150%);
+    box-shadow: 0 0 80px black;
+}
+.profile_name {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+.profile_image, .profile_name {
+    position: relative;
+    width: 200px;
+    right: 100px;
+}
+.profile {
+    width: 0;
+    margin-left: 50%;
+    margin-right: 50%;
+}
