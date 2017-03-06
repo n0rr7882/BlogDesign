@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 * {
-    transition: all 0.3s;
+    transition: all 0.05s;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 100;
 }
@@ -16,12 +16,6 @@ h1, h2, h3, h4 {
     margin-left: 5px;
     margin-right: 5px;
 }
-.content>img {
-    width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    box-shadow: 0 1px 0;
-}
 body {
     margin: 0;
     background-image: url("../background/bodyBG.jpg");
@@ -31,23 +25,28 @@ body {
 }
 .center {
     padding: 5px;
-    column-count: 3;
+    column-count: 5;
     column-width: 400px;
     column-gap: 0;
-    box-shadow: 0 0 20px;
 }
 .content {
     display: inline-block;
     margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px black;
-    background-color: white;
-}
-.content:hover {
-    box-shadow: 0 0 20px black;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .contentinfo {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+@media (max-width:800px) {
+    .content {
+        margin: 5px;
+    }
+    .contentinfo {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
 }
